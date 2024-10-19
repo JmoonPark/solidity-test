@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_id",
+						"type": "uint8"
+					}
+				],
+				"name": "sayHellow",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "count",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_id",
+						"type": "uint8"
+					}
+				],
+				"name": "sayHellowFromMapping",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newString",
+						"type": "string"
+					}
+				],
+				"name": "setHello",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "str",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_id",
+						"type": "uint8"
+					}
+				],
+				"name": "setInfo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/test.sol": "MyContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/test.sol": {
+			"keccak256": "0x2284c8cefec7bda9e910c80f6e31b10af1206e243776210f5c0937ff567a4bea",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://099af50b1c3a8be72d210875bcd854dc2e1071529c06e9f9ec5bdab8ca12e3f3",
+				"dweb:/ipfs/Qmaf12RwjvtmqNbTPYMR4kp3ErZpebFoCrXMM6xpTQmH6G"
+			]
+		}
+	},
+	"version": 1
+}
