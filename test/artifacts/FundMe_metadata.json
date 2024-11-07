@@ -48,6 +48,26 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getFund",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -60,6 +80,18 @@
 			"methods": {
 				"constructor": {
 					"notice": "NetWork:Sepolia testNet Aggregator:ETH/USD Address:0x694AA1769357215DE4FAC081bf1f309aDC325306"
+				},
+				"fund()": {
+					"notice": "收款函数 require：最小收款金额应 >= MINIMUM_VALUE"
+				},
+				"fundersToAmount(address)": {
+					"notice": "维护收款账户与金额的map"
+				},
+				"getChainLinkDataFeedLatestAnswer()": {
+					"notice": "获取当前的货币定价"
+				},
+				"owner()": {
+					"notice": "合约拥有者(在合约部署时赋值)"
 				}
 			},
 			"version": 1
@@ -90,11 +122,11 @@
 			]
 		},
 		"test/FundMe.sol": {
-			"keccak256": "0xd3b979b3312632a9bd426735fed1da7252d69a5e6ce9cd891da938239f91d33f",
+			"keccak256": "0xa0c775c456a3ea974a922398554726bab45cf73c06ed6ec4a0993a07d2f226a4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ccae3b69899913f159fde411969de1fe2496071bcd4df49f0dcbe0820934ae98",
-				"dweb:/ipfs/QmYNsz7FkVsA1HTLomDh9sFNL8FruXGwevYDiVGw5ENvbS"
+				"bzz-raw://adade1bd01a0d56f87d2b4f12f85e85cc323571a2aac84246413dac0d4b2ca81",
+				"dweb:/ipfs/Qme9Hx9N6bv5HjPCag638F844MKkn1zSRpHnwocYiC3nPh"
 			]
 		}
 	},
