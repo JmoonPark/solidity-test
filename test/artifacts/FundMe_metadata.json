@@ -68,6 +68,26 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "refund",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -82,16 +102,19 @@
 					"notice": "NetWork:Sepolia testNet Aggregator:ETH/USD Address:0x694AA1769357215DE4FAC081bf1f309aDC325306"
 				},
 				"fund()": {
-					"notice": "收款函数 require：最小收款金额应 >= MINIMUM_VALUE"
-				},
-				"fundersToAmount(address)": {
-					"notice": "维护收款账户与金额的map"
+					"notice": "筹集资金，将资金捐赠人的地址和金额以key value的形式存入map中"
 				},
 				"getChainLinkDataFeedLatestAnswer()": {
-					"notice": "获取当前的货币定价"
+					"notice": "获得ETH/USD的汇率"
 				},
-				"owner()": {
-					"notice": "合约拥有者(在合约部署时赋值)"
+				"getFund()": {
+					"notice": "获取资金，将筹得的资金取出来"
+				},
+				"refund()": {
+					"notice": "如果在指定期间内未达到筹集目标的金额，则进行退款"
+				},
+				"transferOwnership(address)": {
+					"notice": "转换合约拥有者,需要当前合约拥有者本人调用"
 				}
 			},
 			"version": 1
@@ -122,11 +145,11 @@
 			]
 		},
 		"test/FundMe.sol": {
-			"keccak256": "0xa0c775c456a3ea974a922398554726bab45cf73c06ed6ec4a0993a07d2f226a4",
+			"keccak256": "0xef6250aa352195119c1b7a8c7db5da15ade9895020a2653be9bcd60915911768",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://adade1bd01a0d56f87d2b4f12f85e85cc323571a2aac84246413dac0d4b2ca81",
-				"dweb:/ipfs/Qme9Hx9N6bv5HjPCag638F844MKkn1zSRpHnwocYiC3nPh"
+				"bzz-raw://6e0ca98e6b15f5029ca280ff6ecbb79a2c3d8eaa21a8a0c6ed8b8dbec6c09963",
+				"dweb:/ipfs/QmPPxw5obDnFedD7HxhF1D8Ju1hkpVgu1GGxwrokJ3GnNY"
 			]
 		}
 	},
