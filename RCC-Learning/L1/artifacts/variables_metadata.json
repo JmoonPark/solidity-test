@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"RCC-Learning/L1/variables.sol": "variables"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"RCC-Learning/L1/variables.sol": {
+			"keccak256": "0x13a5cef6fdc9ebe28f832b6398c2507b898ee28ec339ea94af0d88754e648388",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fe0396f63f717eb6b1248c14b85f9c546cb2f62f615d4343a9f99119832940e7",
+				"dweb:/ipfs/Qmf348E4FjbPzBgVGwsCQPtZnqPTXXqLRwxRzbRy8nTN9r"
+			]
+		}
+	},
+	"version": 1
+}
