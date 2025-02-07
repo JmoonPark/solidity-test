@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.28+commit.7893614a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -102,13 +102,19 @@
 					"notice": "NetWork:Sepolia testNet Aggregator:ETH/USD Address:0x694AA1769357215DE4FAC081bf1f309aDC325306"
 				},
 				"fund()": {
-					"notice": "筹集资金，将资金捐赠人的地址和金额以key value的形式存入map中"
+					"notice": "筹集资金，将资金捐赠人的地址和金额以key value的形式存入map中 require：最小收款金额应 >= MINIMUM_VALUE"
+				},
+				"fundersToAmount(address)": {
+					"notice": "维护收款账户与金额的map"
 				},
 				"getChainLinkDataFeedLatestAnswer()": {
 					"notice": "获得ETH/USD的汇率"
 				},
 				"getFund()": {
 					"notice": "获取资金，将筹得的资金取出来"
+				},
+				"owner()": {
+					"notice": "合约拥有者(在合约部署时赋值)"
 				},
 				"refund()": {
 					"notice": "如果在指定期间内未达到筹集目标的金额，则进行退款"
@@ -145,11 +151,11 @@
 			]
 		},
 		"test/FundMe.sol": {
-			"keccak256": "0xef6250aa352195119c1b7a8c7db5da15ade9895020a2653be9bcd60915911768",
+			"keccak256": "0x012e0fe3da4f1c67862a9c812ecb6cbe4a696d63b8fe227a3bce3763f0fda1ed",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6e0ca98e6b15f5029ca280ff6ecbb79a2c3d8eaa21a8a0c6ed8b8dbec6c09963",
-				"dweb:/ipfs/QmPPxw5obDnFedD7HxhF1D8Ju1hkpVgu1GGxwrokJ3GnNY"
+				"bzz-raw://6d17478dc3e7ef8f27df2cb5521f48f645f54a78877e5fc74117518f63ae4f62",
+				"dweb:/ipfs/QmUKAJ5MumutfNhDau9vxSeh7rbZbhixGb32occHL2TJNt"
 			]
 		}
 	},

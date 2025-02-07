@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"RCC-Learning/L1/Gas.sol": "Gas"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"RCC-Learning/L1/Gas.sol": {
+			"keccak256": "0x5631c4964a46d7284f3867528b5a3b0f0388c30bfccc901ee2b13bb661683d7e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0c52ce4df24aef6b1aa7814e99feebf5d484bb52232a95744b386156e7a9929a",
+				"dweb:/ipfs/QmYvTtWzSgDGyDWB7SxLDvwbqcAwZVe7dXhcWTvmNgpM2M"
+			]
+		}
+	},
+	"version": 1
+}
