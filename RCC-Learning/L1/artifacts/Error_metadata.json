@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"RCC-Learning/L1/Error.sol": "Error"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"RCC-Learning/L1/Error.sol": {
+			"keccak256": "0x855733cf641c24fca1ceb69258f8885a4c10def5d83cfe77bfe6708c91e45803",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a70635094a7cb4599e3f5dc4986864099d83d2af1c6c12fdafeb64ff884a0327",
+				"dweb:/ipfs/QmbCb9CEqyGoCc5uAW9YfpLDYZUieC1vctArzfVCnmSD8v"
+			]
+		}
+	},
+	"version": 1
+}

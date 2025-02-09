@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "ternary",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"RCC-Learning/L1/IfElse.sol": "IfElse"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"RCC-Learning/L1/IfElse.sol": {
+			"keccak256": "0xdec6c01c11ef743ca6921c1be16433143680c5c4f6c235a6bfeb725c91585550",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5b36286ad0f1c428c5ff8d8fbbd47d04bc42082b81ef1db19872cc716c9e967a",
+				"dweb:/ipfs/QmR6TLWFUhNHtzZ6zew2zn6mzyVLrJd9dWaA55WYht4o1D"
+			]
+		}
+	},
+	"version": 1
+}

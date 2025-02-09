@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "j",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "loop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"RCC-Learning/L1/Loop.sol": "Loop"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"RCC-Learning/L1/Loop.sol": {
+			"keccak256": "0x0498d17f8ce04511261b23b06416427515545e4b06573ff704f1d3bcb2e68337",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://82a203315cf76689b06faa5ad032f55f3bc3a7c80c9dbe90cb481bf716c9e244",
+				"dweb:/ipfs/QmQ1tFMUxXffE11jZM7DFgeS2Q1ptNqzC3EckWpJijnR4C"
+			]
+		}
+	},
+	"version": 1
+}
