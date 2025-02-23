@@ -121,6 +121,25 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "getSlice",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "pop",
 				"outputs": [],
@@ -195,11 +214,11 @@
 	},
 	"sources": {
 		"RCC-Learning/L1/Array.sol": {
-			"keccak256": "0x03bbb664b325ff7b43db3756c7d70671aa97064330b15a3a4e41384c1ccc8853",
+			"keccak256": "0xc9d1c6c7243d08f886d84230693d3486a5a9c722bd668b875a8a7986f008619b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b47c5273987dfd0e1b412a5aa639a36aba56bcb48a4ac2fa10fead2e6d263a31",
-				"dweb:/ipfs/Qmc2jf3XsqQywsJRoqNNWeHNgRHu9nspZHeSgaskKqTcDy"
+				"bzz-raw://9baa613c05bbf065e2471d013b0f1f7c5499ab3fbc9fb1a03ac32e1735f2c06e",
+				"dweb:/ipfs/Qmd3ES7zukXM2KqUCTqUaNonXXuMGs62te1TbS6usxFDw8"
 			]
 		}
 	},

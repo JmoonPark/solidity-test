@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"RCC-Learning/L1/Array.sol": "MultiArray"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"RCC-Learning/L1/Array.sol": {
+			"keccak256": "0xc9d1c6c7243d08f886d84230693d3486a5a9c722bd668b875a8a7986f008619b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9baa613c05bbf065e2471d013b0f1f7c5499ab3fbc9fb1a03ac32e1735f2c06e",
+				"dweb:/ipfs/Qmd3ES7zukXM2KqUCTqUaNonXXuMGs62te1TbS6usxFDw8"
+			]
+		}
+	},
+	"version": 1
+}

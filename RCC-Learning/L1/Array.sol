@@ -6,7 +6,7 @@ contract Array {
         array可以初始化长度，也可以指定数组内元素值
     */
     uint256[] public arr;
-    uint256[] public arr2 = [1, 2, 3];
+    uint256[] public arr2 = [1, 2, 3, 4, 5];
     uint256[5] public arr3;
 
     function get(uint256 index) public view returns (uint256) {
@@ -66,4 +66,21 @@ contract Array {
         }
         arr2.pop();
     }
+
+    /*
+        数组切片：写法：arr[startIndex:endIndex]
+            被切片的数组必须是calldata修饰的
+    */
+    function getSlice(uint256[] calldata _arr) public pure returns (uint256[] memory) {
+        return _arr[1:3];
+    }
+}
+
+contract MultiArray {
+    /*
+        多维数组：写法：uint[col][row] multiArray;
+            与其他语言相反，第一个值为列，第二个值为行
+            每个维度都可以自定义为静态数组或动态数组
+    */
+    // uint256[2][5] public multiArray = [[uint256(1), 2], [uint256(3), 4, 5, 6, 7]];
 }

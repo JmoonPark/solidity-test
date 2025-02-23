@@ -6,42 +6,35 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "MY_ADDRESS",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
+						"internalType": "uint256[]",
+						"name": "numbers",
+						"type": "uint256[]"
 					}
 				],
-				"stateMutability": "view",
+				"name": "sumArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "total",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "MY_UINT",
+				"name": "test",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "mul",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "NUM",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -58,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"RCC-Learning/L1/Constants.sol": "Constant"
+			"RCC-Learning/L1/Practice.sol": "Test1"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -72,12 +65,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"RCC-Learning/L1/Constants.sol": {
-			"keccak256": "0x58703e9f0f651d4ad6ef85be42a728a105f6c09f0e1f50f8c29147210dbf4459",
+		"RCC-Learning/L1/Practice.sol": {
+			"keccak256": "0x143b9c56da01586311df69dfd3ddd521e01b1fc5d46fd008db883f52d621f3d3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://65cdb498edbcd205139c0a027766019117575d7ed8f864a6d71210e6a254c8f2",
-				"dweb:/ipfs/QmPyHRoNxacZWCx2F9F7Ka5wBpFanNco49V9dD5ugbVLN7"
+				"bzz-raw://223f6292af47fd2bb383dd4f6bb25247fe056088f598af23cae4db67c1e579c5",
+				"dweb:/ipfs/QmeN3dyyBpUMJxqXLZqLr2kyyWbe9QftKzgDiP6fBmfiZY"
 			]
 		}
 	},

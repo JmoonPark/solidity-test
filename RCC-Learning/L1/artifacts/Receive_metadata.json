@@ -6,17 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getResult",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -32,7 +23,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"RCC-Learning/L1/variables.sol": "variables"
+			"RCC-Learning/L1/Receive.sol": "Receive"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,12 +37,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"RCC-Learning/L1/variables.sol": {
-			"keccak256": "0x13a5cef6fdc9ebe28f832b6398c2507b898ee28ec339ea94af0d88754e648388",
+		"RCC-Learning/L1/Receive.sol": {
+			"keccak256": "0x9d3b3a9ebb610eb8a87f4e4333f985070f6f8e41c7238f5a5b6ee8a1608f2238",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fe0396f63f717eb6b1248c14b85f9c546cb2f62f615d4343a9f99119832940e7",
-				"dweb:/ipfs/Qmf348E4FjbPzBgVGwsCQPtZnqPTXXqLRwxRzbRy8nTN9r"
+				"bzz-raw://5ae5d56c324e4b20a50a0972f6bb9657af6e26158745230de1061fb8dda057c4",
+				"dweb:/ipfs/QmWf8DzsRphbN5GmKDCzCTzvoBtUPRTJL8krFnQj52aHkY"
 			]
 		}
 	},
